@@ -49,7 +49,7 @@ function PredictionForm() {
         position: 'relative',
       }}
     >
-      <div className="absolute inset-0 bg-black opacity-20"></div>
+      <div className="absolute inset-0 bg-black opacity-10"></div>
 
       <div className="bg-white p-8 rounded-lg shadow-2xl border-2 border-white max-w-4xl w-full z-10 mt-8">
         <h1 className="text-3xl mb-4 font-semibold text-center text-blue-700">Predictive Maintenance</h1>
