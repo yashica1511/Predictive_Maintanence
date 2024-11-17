@@ -26,7 +26,7 @@ function PredictionForm() {
     };
 
     try {
-      const response = await axios.post('http://localhost:5000/predict', requestData);
+      const response = await axios.post('https://predictive-maintanence.onrender.com/predict', requestData);
 
       if (response.data.success) {
         setPredictedFailureType(response.data.predicted_failure_type);
